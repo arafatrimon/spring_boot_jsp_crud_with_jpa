@@ -1,0 +1,46 @@
+<%@ page import="java.util.Date" %>
+<%--<nav role="navigation" class="navbar navbar-default">--%>
+<%--    <div class="">--%>
+<%--        <a href="#" class="navbar-brand">Arafat Rimon</a>--%>
+<%--    </div>--%>
+<%--    <div>--%>
+<%--        Today's date: <%= (new Date()).toString()%>--%>
+<%--    </div>--%>
+<%--    <div class="navbar-collapse">--%>
+<%--        <ul class="nav navbar-nav">--%>
+<%--            <li class="active"><a href="/list">LIST</a></li>--%>
+<%--            <li><a href="/addStudentPage">Add Student</a></li>--%>
+<%--        </ul>--%>
+<%--        <ul class="nav navbar-nav navbar-right">--%>
+<%--            <li><a href="/addUserPage">Logout</a></li>--%>
+<%--        </ul>--%>
+<%--    </div>--%>
+<%--</nav>--%>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Links -->
+    <ul class="nav navbar-nav">--%>
+                    <li class="active"><a href="/list">LIST</a></li>
+                    <li><a href="/addStudentPage">Add Student</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/addUserPage">Logout</a></li>
+                </ul>
+
+  <ul class="nav navbar-nav navbar-right">
+     <li>
+         <ul class="form-inline " action="/action_page.php">
+             <input class="form-control mr-sm-2" type="text" placeholder="Search">
+             <button class="btn btn-success" type="submit">Search</button>
+     </li>
+      </ul>
+
+      <%--        <ul class="nav navbar-nav navbar-right">--%>
+      <%--            <li><a href="/addUserPage">Logout</a></li>--%>
+      <%--        </ul>--%>
+  </ul>
+</nav>
+
+
+
